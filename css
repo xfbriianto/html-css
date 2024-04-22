@@ -1,0 +1,51 @@
+.banner {
+    background: url("https://c4.wallpaperflare.com/wallpaper/911/928/871/football-stadium-stadium-manchester-united-wallpaper-preview.jpg");
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 20%;
+    color: #fff;
+}
+
+
+.card .card-img-top {
+        width: 100%; /* Lebar gambar 100% dari container */
+        height: 250px; /* Tinggi gambar */
+        object-fit: cover; /* Mengisi area dengan gambar tanpa merubah aspek rasio */
+    }
+
+.card {
+        height: 100%; /* Menetapkan tinggi kartu */
+}
+
+
+.Trophy {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Trophy .card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.Trophy .card-body {
+    padding: 20px;
+}
+
+
+.lingkaran {
+    display: inline-block;
+    border-radius: 50%;
+    width: 150px;
+    margin: auto;
+    height: 150px;
+    color: #fff;
+    background-color: #79000c;
+}
+
+.lingkaran i {
+    position: relative;
+    top: 30px;
+}
